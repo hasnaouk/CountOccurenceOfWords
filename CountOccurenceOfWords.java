@@ -40,16 +40,3 @@ public class CountOccurenceOfWords {
 	}
 
 }
-/*	public static int countSpecialWords(File file) throws Exception {
-String[] specialWordsList = {"love", "darling"};
-Set<String> specialWordsSet = new HashSet<>(Arrays.asList(specialWordsList));
-int count = 0;
-Scanner input = new Scanner(file);
-while(input.hasNext()) {
-	String word = input.next();
-	if(specialWordsSet.contains(word))
-		count++;
-}
-return count;
-
-}*/
